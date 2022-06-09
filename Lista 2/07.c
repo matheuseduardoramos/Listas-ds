@@ -19,7 +19,7 @@ int main()
 	}
 	if (operacao == '/')
 	{
-		resultado = float(a / b);
+		resultado = (float)a / b;
 	}
 	if (operacao == '*')
 	{
